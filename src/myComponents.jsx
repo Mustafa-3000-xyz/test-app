@@ -16,7 +16,7 @@ export function Section() {
         {
             data.map(function (ele) {
                 return <div key={ele.id} className="card" style={{width: "width: 18rem"}}>
-                    <img src={ele.image} className="card-img-top"/>
+                    <img src={ele.image} alt="" className="card-img-top"/>
                         <div className="card-body">
                             <p className="card-text">
                                 {ele.name}
