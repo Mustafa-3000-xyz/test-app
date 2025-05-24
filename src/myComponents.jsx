@@ -13,6 +13,8 @@ export function Section() {
     }, []);
 
     return <section>
+        <h2>Hello world</h2>
+
         {
             data.map(function (ele) {
                 return <div key={ele.id} className="card" style={{width: "width: 18rem"}}>
