@@ -13,7 +13,7 @@ export function Section() {
     }, []);
 
     return <section>
-        <h2>Hello world</h2>
+        <h2>Hello </h2>
 
         {
             data.map(function (ele) {
